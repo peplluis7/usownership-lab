@@ -1,0 +1,82 @@
+51 source records
+Running thirty policy/AI trajectories...
+Main paths complete: 3.4s
+Robustness complete: 5.3s
+Running paired Latin-hypercube design...
+Numerical experiments complete: 28.3s
+LaTeX tables complete: 28.4s
+Figures complete: 33.0s
+Loading comparative module...
+Comparative module loaded.
+Comparison slow: B0
+Comparison slow: B2
+Comparison slow: B5
+Comparison slow: B6
+Comparison slow: B7
+Comparison slow: B10
+Comparison slow: B11
+Comparison slow: B12
+Comparison slow: B13
+Comparison medium: B0
+Comparison medium: B2
+Comparison medium: B5
+Comparison medium: B6
+Comparison medium: B7
+Comparison medium: B10
+Comparison medium: B11
+Comparison medium: B12
+Comparison medium: B13
+Comparison fast: B0
+Comparison fast: B2
+Comparison fast: B5
+Comparison fast: B6
+Comparison fast: B7
+Comparison fast: B10
+Comparison fast: B11
+Comparison fast: B12
+Comparison fast: B13
+Comparative robustness: central
+Comparative robustness: high_investment_penalty
+Comparative robustness: no_investment_penalty
+Comparative robustness: excluded_20pct
+Comparative robustness: fast_dilution
+Comparative robustness: slow_dilution
+Comparative robustness: tight_public_budget
+Comparative robustness: larger_public_budget
+Comparative robustness: fixed_real_floor
+Comparative robustness: high_liquidity_elasticity
+Comparative robustness: score_capture_20pct
+Comparative robustness: resource_bottleneck
+code  real_gdp  mvi_gdp  tax_gdp  gini_wealth  participant_income_gdp
+  B0  6.480999 0.070736 0.250119     0.768232                0.000000
+  B2  6.480999 0.190278 0.370401     0.753778                0.000000
+  B5  6.480999 0.105694 0.285329     0.583237                0.171411
+  B6  6.480999 0.101641 0.271269     0.584163                0.171411
+  B7  6.480999 0.059648 0.239136     0.560003                0.171411
+ B10  6.480999 0.169755 0.349796     0.748528                0.000000
+ B11  6.480999 0.105694 0.285329     0.744939                0.171411
+ B12  6.480999 0.101641 0.271269     0.749110                0.171411
+ B13  6.480999 0.019092 0.187461     0.594891                0.171411
+{
+  "main_comparison_runs": 27,
+  "robustness_comparison_runs": 72,
+  "matched_checks": 48,
+  "max_matched_error": 0.0,
+  "max_accounting_error": 6.190398948395463e-16
+}
+Figures and workbook complete: 45.1s
+Compiled /mnt/data/sced_revision/ssm-ai-transition/paper/main.pdf
+Compiled /mnt/data/sced_revision/ssm-ai-transition/paper/supplement.pdf
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "main_runs": 30,
+  "comparison_runs": 99,
+  "total_macro_runs": 549,
+  "robustness_runs": 36,
+  "paired_sensitivity_runs": 384,
+  "max_cash_identity_error": 6.190398948395463e-16,
+  "max_goods_identity_error": 3.0064858779428636e-16,
+  "max_equity_identity_error": 2.4424906541753444e-15
+}

@@ -1,0 +1,18 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "main_runs": 30,
+  "comparison_runs": 99,
+  "total_macro_runs": 549,
+  "robustness_runs": 36,
+  "paired_sensitivity_runs": 384,
+  "max_cash_identity_error": 6.190398948395463e-16,
+  "max_goods_identity_error": 3.0064858779428636e-16,
+  "max_equity_identity_error": 2.4424906541753444e-15,
+  "release_version": "0.3.0",
+  "calendar_start_year": 2027,
+  "paper_decade": "2027-2037",
+  "structural_horizon": "2027-2077 (50 model years)",
+  "release_note": "Economic core unchanged from the verified 549-path run; v0.3.0 standardizes usownership terminology and calendar-year labels."
+}
