@@ -3,8 +3,8 @@ message: "If you use this simulation code, please cite the accompanying paper an
 title: "Usownership and the AI Ownership Transition: Reproducible Simulation Code"
 type: software
 authors:
-  - family-names: "de la Rosa"
-    given-names: "Josep Lluis"
+  - family-names: "Esteva de la Rosa"
+    given-names: "Pepluis"
 version: 0.3.0
 date-released: 2026-09-09
 keywords:
