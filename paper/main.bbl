@@ -1,0 +1,524 @@
+\begin{thebibliography}{65}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Acemoglu(2024)]{acemoglu2024}
+Daron Acemoglu.
+\newblock {The Simple Macroeconomics of AI}.
+\newblock Technical Report 32487, NBER Working Paper, 2024.
+\newblock URL \url{https://www.nber.org/papers/w32487}.
+
+\bibitem[Acemoglu and Restrepo(2018)]{acemoglu2018}
+Daron Acemoglu and Pascual Restrepo.
+\newblock {Artificial Intelligence, Automation and Work}.
+\newblock Technical Report 24196, NBER Working Paper, 2018.
+\newblock URL \url{https://www.nber.org/papers/w24196}.
+
+\bibitem[Acemoglu et~al.(2020)Acemoglu, Manera, and Restrepo]{acemoglutax2020}
+Daron Acemoglu, Andrea Manera, and Pascual Restrepo.
+\newblock {Does the US Tax Code Favor Automation?}
+\newblock Technical Report 27052, National Bureau of Economic Research, 2020.
+\newblock URL \url{https://www.nber.org/papers/w27052}.
+
+\bibitem[Agarwal and Kimball(2015)]{agarwal2015}
+Ruchir Agarwal and Miles Kimball.
+\newblock {Breaking Through the Zero Lower Bound}.
+\newblock Technical Report 15/224, IMF Working Paper, 2015.
+\newblock URL
+  \url{https://www.imf.org/en/publications/wp/issues/2016/12/31/breaking-through-the-zero-lower-bound-43358}.
+
+\bibitem[Arrieta-Ibarra et~al.(2018)Arrieta-Ibarra, Goff, Jimenez-Hernandez,
+  Lanier, and Weyl]{dataaslabour2018}
+Imanol Arrieta-Ibarra, Leonard Goff, Diego Jimenez-Hernandez, Jaron Lanier, and
+  E.~Glen Weyl.
+\newblock {Should We Treat Data as Labor? Moving beyond ``Free''}.
+\newblock \emph{AEA Papers and Proceedings}, 108:\penalty0 38--42, 2018.
+\newblock \doi{10.1257/pandp.20181003}.
+\newblock URL \url{https://www.aeaweb.org/articles?id=10.1257/pandp.20181003}.
+
+\bibitem[Auer and Boehme(2021)]{auer2021}
+Raphael Auer and Rainer Boehme.
+\newblock {Central Bank Digital Currency: The Quest for Minimally Invasive
+  Technology}.
+\newblock Technical Report 948, BIS Working Paper, 2021.
+\newblock URL
+  \url{https://www.bis.org/publications/working-paper-948-central-bank-digital-currency-quest-minimally-invasive-technology}.
+
+\bibitem[Bailey(1956)]{bailey1956}
+Martin~J. Bailey.
+\newblock {The Welfare Cost of Inflationary Finance}.
+\newblock \emph{Journal of Political Economy}, 64\penalty0 (2):\penalty0
+  93--110, 1956.
+\newblock \doi{10.1086/257766}.
+\newblock URL \url{https://www.journals.uchicago.edu/doi/abs/10.1086/257766}.
+
+\bibitem[{{Bank for International Settlements}}(2022)]{bis2022}
+{{Bank for International Settlements}}.
+\newblock {The Future Monetary System}.
+\newblock BIS Annual Economic Report, Chapter III, 2022.
+\newblock URL
+  \url{https://www.bis.org/publications/aer-2022/future-monetary-system}.
+
+\bibitem[{{Bank for International Settlements}}(2023)]{bis2023}
+{{Bank for International Settlements}}.
+\newblock {Blueprint for the Future Monetary System: Improving the Old,
+  Enabling the New}.
+\newblock BIS Annual Economic Report, Chapter III, 2023.
+\newblock URL
+  \url{https://www.bis.org/publications/aer-2023/blueprint-future-monetary-system-improving-old-enabling-new}.
+
+\bibitem[{{Bank for International Settlements}}(2025)]{bis2025}
+{{Bank for International Settlements}}.
+\newblock {The Next-Generation Monetary and Financial System}.
+\newblock BIS Annual Economic Report, Chapter III, 2025.
+\newblock URL
+  \url{https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system}.
+
+\bibitem[{{Bank for International Settlements}}(2026)]{bis2026}
+{{Bank for International Settlements}}.
+\newblock {Anchoring Trust in Money: Innovation Beyond Stablecoins}.
+\newblock BIS Annual Economic Report 2026, Chapter III, 2026.
+\newblock URL
+  \url{https://www.bis.org/publications/iii-anchoring-trust-money-innovation-beyond-stablecoins}.
+
+\bibitem[Bearer-Friend and Polcz(2025)]{bearerfriend2025}
+Jeremy Bearer-Friend and Sarah Polcz.
+\newblock {Sharing the Algorithm: The Tax Solution to Generative AI}.
+\newblock \emph{Columbia Journal of Tax Law}, 17\penalty0 (1):\penalty0 1--40,
+  2025.
+\newblock \doi{10.52214/cjtl.v17i1.14478}.
+\newblock URL
+  \url{https://journals.library.columbia.edu/index.php/taxlaw/article/view/14478}.
+
+\bibitem[Bibler et~al.(2023)Bibler, Guettabi, and Reimer]{bibler2023}
+Andrew Bibler, Mouhcine Guettabi, and Matthew~N. Reimer.
+\newblock {Universal Cash Transfers and Labor Market Outcomes}.
+\newblock \emph{Journal of Policy Analysis and Management}, 2023.
+\newblock \doi{10.1002/pam.22455}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/pam.22455}.
+
+\bibitem[Bidder et~al.(2025)Bidder, Jackson, and Rottner]{bidder2025}
+Rhys Bidder, Timothy Jackson, and Matthias Rottner.
+\newblock {CBDC and Banks: Disintermediating Fast and Slow}.
+\newblock Technical Report 1280, BIS Working Paper, 2025.
+\newblock URL
+  \url{https://www.bis.org/publications/working-paper-1280-cbdc-and-banks-disintermediating-fast-and-slow}.
+
+\bibitem[Bindseil and Senner(2025)]{bindseil2025}
+Ulrich Bindseil and Richard Senner.
+\newblock {Modeling Central Bank Digital Currencies}.
+\newblock \emph{Journal of Economic Surveys}, 39\penalty0 (5):\penalty0
+  2088--2105, 2025.
+\newblock \doi{10.1111/joes.12686}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/full/10.1111/joes.12686}.
+
+\bibitem[Brollo et~al.(2024)Brollo, Dabla-Norris, de~Mooij, Garcia-Macia,
+  Hanappi, Liu, and Nguyen]{brollo2024}
+Fernanda Brollo, Era Dabla-Norris, Ruud de~Mooij, Daniel Garcia-Macia, Tibor
+  Hanappi, Li~Liu, and Anh D.~M. Nguyen.
+\newblock {Broadening the Gains from Generative AI: The Role of Fiscal
+  Policies}.
+\newblock Technical Report 2024/002, IMF Staff Discussion Note, 2024.
+\newblock URL
+  \url{https://www.elibrary.imf.org/view/journals/006/2024/002/article-A001-en.xml}.
+
+\bibitem[Brynjolfsson et~al.(2025)Brynjolfsson, Li, and
+  Raymond]{brynjolfsson2025}
+Erik Brynjolfsson, Danielle Li, and Lindsey Raymond.
+\newblock {Generative AI at Work}.
+\newblock \emph{The Quarterly Journal of Economics}, 140\penalty0 (2):\penalty0
+  889--942, 2025.
+\newblock \doi{10.1093/qje/qjae044}.
+\newblock URL \url{https://doi.org/10.1093/qje/qjae044}.
+
+\bibitem[Buiter(2014)]{buiter2014}
+Willem~H. Buiter.
+\newblock {The Simple Analytics of Helicopter Money: Why It Works---Always}.
+\newblock \emph{Economics}, 8:\penalty0 20140028, 2014.
+\newblock \doi{10.5018/economics-ejournal.ja.2014-28}.
+\newblock URL
+  \url{https://www.degruyterbrill.com/document/doi/10.5018/economics-ejournal.ja.2014-28/html}.
+
+\bibitem[Cipollone(2026)]{cipollone2026}
+Piero Cipollone.
+\newblock {Building the Rails for Europe's Tokenised Financial Markets}.
+\newblock Keynote speech, European Central Bank, Brussels, 23 March, 2026.
+\newblock URL
+  \url{https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260323~a88f20c049.en.html}.
+
+\bibitem[{{Circles}}(2026)]{circles2026}
+{{Circles}}.
+\newblock {Personal Currency: Issuance and Demurrage}.
+\newblock Technical documentation, 2026.
+\newblock URL
+  \url{https://docs.aboutcircles.com/overview/how-it-works/personal-currency}.
+
+\bibitem[Dao et~al.(2018)Dao, Alistarh, Musat, and Zhang]{databright2018}
+David Dao, Dan Alistarh, Claudiu Musat, and Ce~Zhang.
+\newblock {DataBright: Towards a Global Exchange for Decentralized Data
+  Ownership and Trusted Computation}.
+\newblock arXiv:1802.04780, 2018.
+\newblock URL \url{https://arxiv.org/abs/1802.04780}.
+
+\bibitem[de~la Rosa~Esteva(2022)]{delarosa2022iov}
+Josep~Lluis de~la Rosa~Esteva.
+\newblock {Potential Sources of Internet of Value Systemic Risk}.
+\newblock In Nikhil Vadgama, Jiahua Xu, and Paolo Tasca, editors,
+  \emph{{Enabling the Internet of Value: How Blockchain Connects Global
+  Businesses}}, pages 185--188. Springer International Publishing, Cham, 2022.
+\newblock \doi{10.1007/978-3-030-78184-2_16}.
+\newblock URL \url{https://doi.org/10.1007/978-3-030-78184-2_16}.
+
+\bibitem[{{Deutsche Bundesbank}}(2026)]{bundesbank2026}
+{{Deutsche Bundesbank}}.
+\newblock {Frequently Asked Questions on the Digital Euro}.
+\newblock Deutsche Bundesbank, 2026.
+\newblock URL
+  \url{https://www.bundesbank.de/en/tasks/payment-systems/digital-euro/faq-digital-euro}.
+
+\bibitem[Dosi et~al.(2022)Dosi, Pereira, Roventini, and Virgillito]{dosi2022}
+Giovanni Dosi, Marcelo~C. Pereira, Andrea Roventini, and Maria~Enrica
+  Virgillito.
+\newblock {Technological Paradigms, Labour Creation and Destruction in a
+  Multi-Sector Agent-Based Model}.
+\newblock \emph{Research Policy}, 51\penalty0 (10):\penalty0 104565, 2022.
+\newblock \doi{10.1016/j.respol.2022.104565}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0048733322000889}.
+
+\bibitem[Dunn(1988)]{dunn1988}
+John~R. Dunn.
+\newblock {Basic Cooperative Principles and Their Relationship to Selected
+  Practices}.
+\newblock \emph{Journal of Agricultural Cooperation}, 3:\penalty0 83--93, 1988.
+\newblock \doi{10.22004/ag.econ.46212}.
+\newblock URL \url{https://ageconsearch.umn.edu/record/46212}.
+
+\bibitem[{{European Central Bank}}(2026{\natexlab{a}})]{ecbfaq2026}
+{{European Central Bank}}.
+\newblock {FAQs on the Digital Euro}.
+\newblock European Central Bank, accessed 9 September 2026, 2026{\natexlab{a}}.
+\newblock URL
+  \url{https://www.ecb.europa.eu/euro/digital_euro/faqs/html/ecb.faq_digital_euro.en.html}.
+
+\bibitem[{{European Central Bank}}(2026{\natexlab{b}})]{ecbpilot2026}
+{{European Central Bank}}.
+\newblock {Digital Euro Pilot}.
+\newblock European Central Bank, 2026{\natexlab{b}}.
+\newblock URL
+  \url{https://www.ecb.europa.eu/euro/digital_euro/pilot/html/index.en.html}.
+
+\bibitem[{{European Commission}}(2026)]{eciov2026}
+{{European Commission}}.
+\newblock {DLT and Tokenisation: Paving the Way for an Internet of Value}.
+\newblock Directorate-General for Financial Stability, Financial Services and
+  Capital Markets Union, 21 April, 2026.
+\newblock URL
+  \url{https://finance.ec.europa.eu/news/dlt-and-tokenisation-paving-way-internet-value-2026-04-21_en}.
+
+\bibitem[{European Commission, Directorate-General for Taxation and Customs
+  Union}(2026)]{taxtrends2026}
+{European Commission, Directorate-General for Taxation and Customs Union}.
+\newblock {Data on Taxation Trends: 2026 Update}.
+\newblock European Commission, 2026.
+\newblock URL
+  \url{https://taxation-customs.ec.europa.eu/taxation/economic-analysis/data-taxation-trends_en}.
+
+\bibitem[{{European Union}}(2016)]{tfeu123}
+{{European Union}}.
+\newblock {Consolidated Treaty on the Functioning of the European Union,
+  Article 123}.
+\newblock Official Journal of the European Union, 2016.
+\newblock URL
+  \url{https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_123/oj/eng}.
+
+\bibitem[{{Eurostat}}(2026)]{eurostat2026}
+{{Eurostat}}.
+\newblock {Provision of Deficit and Debt Data for 2025: First Notification}.
+\newblock European Commission, 2026.
+\newblock URL
+  \url{https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-22042026-ap}.
+
+\bibitem[Fan and Nguyen(2026)]{fannguyen2026}
+Rachel~Yuting Fan and Ha~Minh Nguyen.
+\newblock {Aggregate Gains from AI and Their Distribution: Global Evidence from
+  Usage Data}.
+\newblock IMF Working Paper 2026/147, International Monetary Fund, 2026.
+\newblock URL
+  \url{https://www.imf.org/en/publications/wp/issues/2026/07/10/aggregate-gains-from-ai-and-their-distribution-global-evidence-from-usage-data-577586}.
+
+\bibitem[Friedman(1971)]{friedman1971}
+Milton Friedman.
+\newblock {Government Revenue from Inflation}.
+\newblock \emph{Journal of Political Economy}, 79\penalty0 (4):\penalty0
+  846--856, 1971.
+\newblock \doi{10.1086/259791}.
+\newblock URL \url{https://www.journals.uchicago.edu/doi/10.1086/259791}.
+
+\bibitem[Furendal and O'Neill(2024)]{furendal2024}
+Markus Furendal and Martin O'Neill.
+\newblock {Work, Justice, and Collective Capital Institutions: Revisiting
+  Rudolf Meidner and the Case for Wage-Earner Funds}.
+\newblock \emph{Journal of Applied Philosophy}, 41\penalty0 (2):\penalty0
+  306--329, 2024.
+\newblock \doi{10.1111/japp.12631}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/full/10.1111/japp.12631}.
+
+\bibitem[Ghorbani and Zou(2019)]{ghorbani2019}
+Amirata Ghorbani and James Zou.
+\newblock {Data Shapley: Equitable Valuation of Data for Machine Learning}.
+\newblock In \emph{Proceedings of the 36th International Conference on Machine
+  Learning}, volume~97, pages 2242--2251, 2019.
+\newblock URL \url{https://proceedings.mlr.press/v97/ghorbani19c.html}.
+
+\bibitem[Godley and Lavoie(2007)]{godley2007}
+Wynne Godley and Marc Lavoie.
+\newblock \emph{{Monetary Economics: An Integrated Approach to Credit, Money,
+  Income, Production and Wealth}}.
+\newblock Palgrave Macmillan, 2007.
+\newblock \doi{10.1057/9780230626546}.
+\newblock URL \url{https://link.springer.com/book/10.1057/9780230626546}.
+
+\bibitem[Grossman and Hart(1986)]{grossmanhart1986}
+Sanford~J. Grossman and Oliver~D. Hart.
+\newblock {The Costs and Benefits of Ownership: A Theory of Vertical and
+  Lateral Integration}.
+\newblock \emph{Journal of Political Economy}, 94\penalty0 (4):\penalty0
+  691--719, 1986.
+\newblock \doi{10.1086/261404}.
+\newblock URL \url{https://www.journals.uchicago.edu/doi/10.1086/261404}.
+
+\bibitem[Gualerzi(2026)]{gualerzi2026}
+Davide Gualerzi.
+\newblock {Structural Change: Expansion or Stagnation?}
+\newblock \emph{Structural Change and Economic Dynamics}, 78:\penalty0 63--69,
+  2026.
+\newblock \doi{10.1016/j.strueco.2026.02.009}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0954349X26000329}.
+
+\bibitem[Guerreiro et~al.(2022)Guerreiro, Rebelo, and Teles]{guerreiro2022}
+Joao Guerreiro, Sergio Rebelo, and Pedro Teles.
+\newblock {Should Robots Be Taxed?}
+\newblock \emph{Review of Economic Studies}, 89\penalty0 (1):\penalty0
+  279--311, 2022.
+\newblock \doi{10.1093/restud/rdab019}.
+\newblock URL \url{https://www.nber.org/papers/w23806}.
+
+\bibitem[Jones(2026)]{jones2026}
+Charles~I. Jones.
+\newblock {A.I. and Our Economic Future}.
+\newblock Technical Report 34779, NBER Working Paper, 2026.
+\newblock URL \url{https://www.nber.org/papers/w34779}.
+\newblock Revised June 2026.
+
+\bibitem[Jones and Tonetti(2020)]{jones2020data}
+Charles~I. Jones and Christopher Tonetti.
+\newblock {Nonrivalry and the Economics of Data}.
+\newblock \emph{American Economic Review}, 110\penalty0 (9):\penalty0
+  2819--2858, 2020.
+\newblock \doi{10.1257/aer.20191330}.
+\newblock URL
+  \url{https://www.gsb.stanford.edu/faculty-research/publications/nonrivalry-economics-data}.
+
+\bibitem[Jones and Marinescu(2020)]{jonesmarinescu2020}
+Damon Jones and Ioana Marinescu.
+\newblock {The Labor Market Impacts of Universal and Permanent Cash Transfers:
+  Evidence from the Alaska Permanent Fund}.
+\newblock Technical Report 24312, NBER Working Paper, 2020.
+\newblock URL \url{https://www.nber.org/papers/w24312}.
+\newblock Issued 2018; revised January 2020.
+
+\bibitem[Juh\'{a}sz et~al.(2024)Juh\'{a}sz, Lane, and Rodrik]{juhasz2024}
+R\'{e}ka Juh\'{a}sz, Nathan Lane, and Dani Rodrik.
+\newblock {The New Economics of Industrial Policy}.
+\newblock \emph{Annual Review of Economics}, 16:\penalty0 213--242, 2024.
+\newblock \doi{10.1146/annurev-economics-081023-024638}.
+\newblock URL
+  \url{https://www.annualreviews.org/content/journals/10.1146/annurev-economics-081023-024638}.
+
+\bibitem[Katz and Jung(2026)]{katz2026}
+Raul Katz and Juan Jung.
+\newblock {The Macroeconomic Effects of Generative AI}.
+\newblock \emph{Structural Change and Economic Dynamics}, 79:\penalty0
+  400--411, 2026.
+\newblock \doi{10.1016/j.strueco.2026.05.013}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0954349X26000937}.
+
+\bibitem[Korinek and Lockwood(2026)]{korinek2026}
+Anton Korinek and Lee Lockwood.
+\newblock {Public Finance in the Age of AI: A Primer}.
+\newblock Technical Report 34873, NBER Working Paper, 2026.
+\newblock URL \url{https://www.nber.org/papers/w34873}.
+
+\bibitem[Korinek and Stiglitz(2026)]{korinekstiglitz2026}
+Anton Korinek and Joseph~E. Stiglitz.
+\newblock {Steering Technological Progress}.
+\newblock Technical Report 34994, NBER Working Paper, 2026.
+\newblock URL \url{https://www.nber.org/papers/w34994}.
+
+\bibitem[Lamperti and Castellani(2026)]{lamperti2026}
+Fabio Lamperti and Davide Castellani.
+\newblock {Automation and the Risk of Labor Market Exclusion across Europe}.
+\newblock \emph{Structural Change and Economic Dynamics}, 77:\penalty0 62--76,
+  2026.
+\newblock \doi{10.1016/j.strueco.2025.12.014}.
+\newblock URL \url{https://doi.org/10.1016/j.strueco.2025.12.014}.
+
+\bibitem[Lohmer et~al.(2024)Lohmer, Birkel, and M{\"u}ller]{lohmer2024}
+Jacob Lohmer, Hendrik Birkel, and Julian~M. M{\"u}ller.
+\newblock {The Internet of Value: Towards a Definition, Framework, and
+  Understanding of Its Sustainability Implications}.
+\newblock \emph{Technological Forecasting and Social Change}, 206:\penalty0
+  123466, 2024.
+\newblock \doi{10.1016/j.techfore.2024.123466}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0040162524002622}.
+
+\bibitem[McLeay et~al.(2014)McLeay, Radia, and Thomas]{mcleay2014}
+Michael McLeay, Amar Radia, and Ryland Thomas.
+\newblock {Money Creation in the Modern Economy}.
+\newblock \emph{Bank of England Quarterly Bulletin}, 54\penalty0 (1):\penalty0
+  14--27, 2014.
+\newblock URL
+  \url{https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy}.
+
+\bibitem[Meidner(1981)]{meidner1981}
+Rudolf Meidner.
+\newblock {Collective Asset Formation through Wage-Earner Funds}.
+\newblock \emph{International Labour Review}, 120\penalty0 (3):\penalty0
+  303--317, 1981.
+\newblock URL
+  \url{https://researchrepository.ilo.org/esploro/outputs/journalArticle/Collective-asset-formation-through-wage-earner-funds/995219245602676}.
+
+\bibitem[Minniti et~al.(2025)Minniti, Prettner, and Venturini]{minniti2025}
+Antonio Minniti, Klaus Prettner, and Francesco Venturini.
+\newblock {AI Innovation and the Labor Share in European Regions}.
+\newblock \emph{European Economic Review}, 177:\penalty0 105043, 2025.
+\newblock \doi{10.1016/j.euroecorev.2025.105043}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0014292125000935}.
+
+\bibitem[Mu{\~n}oz et~al.(2022)Mu{\~n}oz, de~la Rosa, and {Easy
+  Innova}]{erc4950}
+V{\'i}ctor Mu{\~n}oz, Josep~Lluis de~la Rosa, and {Easy Innova}.
+\newblock {ERC-4950: Entangled Tokens}.
+\newblock Ethereum Improvement Proposals, Standards Track ERC, no. 4950, 2022.
+\newblock URL \url{https://eips.ethereum.org/EIPS/eip-4950}.
+\newblock Created 28 March 2022; current status: Stagnant; accessed 9 September
+  2026.
+
+\bibitem[O'Boyle et~al.(2016)O'Boyle, Patel, and Gonzalez-Mul\'{e}]{oboyle2016}
+Ernest~H. O'Boyle, Pankaj~C. Patel, and Erik Gonzalez-Mul\'{e}.
+\newblock {Employee Ownership and Firm Performance: A Meta-Analysis}.
+\newblock \emph{Human Resource Management Journal}, 26\penalty0 (4):\penalty0
+  425--448, 2016.
+\newblock \doi{10.1111/1748-8583.12115}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/10.1111/1748-8583.12115}.
+
+\bibitem[O'Keefe et~al.(2020)O'Keefe, Cihon, Garfinkel, Flynn, Leung, and
+  Dafoe]{windfall2020}
+Cullen O'Keefe, Peter Cihon, Ben Garfinkel, Carrick Flynn, Jade Leung, and
+  Allan Dafoe.
+\newblock {The Windfall Clause: Distributing the Benefits of AI for the Common
+  Good}.
+\newblock Centre for the Governance of AI, 2020.
+\newblock URL
+  \url{https://www.governance.ai/research-paper/the-windfall-clause-distributing-the-benefits-of-ai-for-the-common-good}.
+
+\bibitem[Pontusson and Kuruvilla(1992)]{pontusson1992}
+Jonas Pontusson and Sarosh Kuruvilla.
+\newblock {Swedish Wage-Earner Funds: An Experiment in Economic Democracy}.
+\newblock \emph{Industrial and Labor Relations Review}, 45\penalty0 (4), 1992.
+\newblock \doi{10.1177/001979399204500412}.
+\newblock URL
+  \url{https://journals.sagepub.com/doi/10.1177/001979399204500412}.
+
+\bibitem[Restrepo(2025)]{restrepo2025}
+Pascual Restrepo.
+\newblock {We Won't Be Missed: Work and Growth in the AGI World}.
+\newblock Technical Report 34423, NBER Working Paper, 2025.
+\newblock URL \url{https://www.nber.org/papers/w34423}.
+
+\bibitem[{{Ripple}}(2017)]{ripple2017}
+{{Ripple}}.
+\newblock {The Internet of Value: What It Means and How It Benefits Everyone}.
+\newblock Corporate historical source, 22 June, 2017.
+\newblock URL
+  \url{https://ripple.com/insights/the-internet-of-value-what-it-means-and-how-it-benefits-everyone/}.
+
+\bibitem[Sargent and Wallace(1981)]{sargent1981}
+Thomas~J. Sargent and Neil Wallace.
+\newblock {Some Unpleasant Monetarist Arithmetic}.
+\newblock \emph{Federal Reserve Bank of Minneapolis Quarterly Review},
+  5\penalty0 (3):\penalty0 1--17, 1981.
+\newblock \doi{10.21034/qr.531}.
+\newblock URL
+  \url{https://www.minneapolisfed.org/research/quarterly-review/some-unpleasant-monetarist-arithmetic}.
+
+\bibitem[Schneider(2018)]{schneider2018}
+Nathan Schneider.
+\newblock {An Internet of Ownership: Democratic Design for the Online Economy}.
+\newblock \emph{The Sociological Review}, 66\penalty0 (2):\penalty0 320--340,
+  2018.
+\newblock \doi{10.1177/0038026118758533}.
+\newblock URL \url{https://journals.sagepub.com/doi/10.1177/0038026118758533}.
+
+\bibitem[Scholz(2016)]{scholz2016}
+Trebor Scholz.
+\newblock \emph{{Platform Cooperativism: Challenging the Corporate Sharing
+  Economy}}.
+\newblock Rosa Luxemburg Stiftung, New York, 2016.
+\newblock URL
+  \url{https://resources.platform.coop/en/resources/platform-cooperativism-challenging-the-corporate-sharing-economy/}.
+
+\bibitem[{{StraitsX}}(2026)]{straitsx2026}
+{{StraitsX}}.
+\newblock {Customer Profile FAQs}.
+\newblock Developer documentation, accessed 9 September 2026, 2026.
+\newblock URL \url{https://docs.straitsx.com/docs/customer-profile-faqs}.
+
+\bibitem[Thuemmel(2023)]{thuemmel2023}
+Uwe Thuemmel.
+\newblock {Optimal Taxation of Robots}.
+\newblock \emph{Journal of the European Economic Association}, 21\penalty0
+  (3):\penalty0 1154--1190, 2023.
+\newblock \doi{10.1093/jeea/jvac062}.
+\newblock URL \url{https://academic.oup.com/jeea/article/21/3/1154/6798383}.
+
+\bibitem[Trammell and Korinek(2026)]{trammell2026}
+Philip Trammell and Anton Korinek.
+\newblock {Economic Growth under Transformative AI}.
+\newblock \emph{Annual Review of Economics}, 18:\penalty0 589--611, 2026.
+\newblock \doi{10.1146/annurev-economics-051624-061002}.
+\newblock URL
+  \url{https://www.annualreviews.org/content/journals/10.1146/annurev-economics-051624-061002}.
+\newblock Published August 2026; related NBER Working Paper 31815 revised April
+  2026.
+
+\bibitem[Wirkierman(2023)]{wirkierman2023}
+Ariel~Luis Wirkierman.
+\newblock {Structural Economic Dynamics in Actual Industrial Economies}.
+\newblock \emph{Structural Change and Economic Dynamics}, 64:\penalty0
+  245--262, 2023.
+\newblock \doi{10.1016/j.strueco.2023.01.001}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0954349X23000012}.
+
+\bibitem[Zeuli and Radel(2005)]{zeuliradel2005}
+Kimberly~A. Zeuli and Jamie Radel.
+\newblock {Cooperatives as a Community Development Strategy: Linking Theory and
+  Practice}.
+\newblock \emph{Journal of Regional Analysis and Policy}, 35\penalty0
+  (1):\penalty0 43--54, 2005.
+\newblock \doi{10.22004/ag.econ.132302}.
+\newblock URL \url{https://ageconsearch.umn.edu/record/132302}.
+
+\end{thebibliography}

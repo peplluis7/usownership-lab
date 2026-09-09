@@ -1,0 +1,32 @@
+{
+  "max_scaled_error": 9.210678703347614e-14,
+  "columns": {
+    "last_year": 0.0,
+    "max_inflation": 9.210678703347614e-14,
+    "peak_mvi": 0.0,
+    "peak_mvi_year": 0.0,
+    "mean_tax_gdp": 0.0,
+    "max_accounting_error": 1.5022882159199987e-16,
+    "max_equity_error": 2.220446049299997e-16,
+    "real_gdp": 0.0,
+    "nominal_gdp": 0.0,
+    "inflation": 0.0,
+    "usownership_share": 0.0,
+    "mvi_gdp": 9.991810667208163e-16,
+    "tax_gdp": 0.0,
+    "gini_wealth": 0.0,
+    "gini_income": 0.0,
+    "top10_wealth": 0.0,
+    "top1_wealth": 0.0,
+    "median_income": 0.0,
+    "median_use_dividend": 0.0,
+    "fiscal_issuance_gdp": 0.0,
+    "net_seigniorage_gdp": 0.0,
+    "burn_gdp": 0.0,
+    "money_gdp": 0.0,
+    "velocity": 0.0,
+    "coverage_shortfall": 0.0,
+    "labour_share": 0.0,
+    "ordinary_discounted_dividends": 0.0
+  }
+}

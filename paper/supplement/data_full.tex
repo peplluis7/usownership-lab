@@ -1,0 +1,37 @@
+\section{Data anchors, scenarios and evaluation}
+\subsection{Empirical anchors versus assumptions}
+The European anchor is the 22 April 2026 first annual EDP notification for 2025. EU27 GDP is EUR18.826635 trillion, public expenditure 49.5\% of GDP and public revenue 46.4\%; the separate EA20 GDP is EUR15.838206 trillion \citep{eurostat2026}. A rounded 452 million EU resident count on 1 January 2026 provides an illustrative unit conversion \citep{population2026}. The two date conventions are disclosed. This is not an official GDP-per-capita series and not an adult population estimate. All per-person monetary illustrations are \emph{resident-equivalent} amounts; an adult-only programme requires a separate demographic calibration.
+
+The model's 22\% public-purchases parameter is an assumed block of services, not the full 49.5\% general-government spending aggregate. Transfers are modelled separately. The latent automation coefficient is not inferred from the current proportion of firms using an AI tool. Neither the money/GDP ratio nor the contribution distribution is estimated from present EU data. In particular, a euro-area M3 numerator is not divided by an EU27 denominator. An attempted direct API retrieval was unavailable in the execution environment; the package instead supplies explicit manually transcribed official anchors with URLs and a separate optional refresh script.
+
+\begin{table}[htbp]\centering\small
+\caption{Principal central parameters: all behavioural entries are scenario assumptions}
+\begin{tabularx}{\linewidth}{@{}p{.34\linewidth}p{.18\linewidth}X@{}}
+\toprule
+Quantity & Central value & Interpretation\\
+\midrule
+Population and firm types & 400; 3 & Synthetic equal-weight agents and representative activities\\
+Initial capital/output; money/output & 3.0; 0.60 & Post-reform starting stocks, not observed EU aggregates\\
+Trend productivity; depreciation & 1\%; 6\% & Annual production parameters\\
+Capital elasticity & 0.40 & Reduced-form capacity elasticity\\
+Income reference floor & 25\% & Share of potential GDP per resident equivalent\\
+Public purchases & 22\% & Separate assumed public-service block\\
+Annual equity issue cap & 2\% & Relative to old share count, conditional on automation\\
+Automation threshold & 0.25 & Start of participant-share issuance\\
+Top levy; protected balance & 4\%; 0.12 & Initial top rate; exemption in forecast mean-income units\\
+Liquidity-cost elasticity & 4 & Unestimated behavioural response\\
+Resource growth & 3.5\% & Stylised annual capacity constraint\\
+Investment response to dilution & 0.60 & Sensitivity parameter, not an identified elasticity\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Counterfactuals and uncertainty design}
+The ten policy cases share the same accounting. B0 is a targeted tax-transfer comparator, not a fitted present-day EU system. B1 supplies no household transfer. B2 combines a universal top-up with the adaptive monetary rule and residual taxes; it is a conventional tax-adjusted benchmark with ordinary monetary accommodation, not literally zero seigniorage. B3 fixes the tax rate and lets money finance transfers. B4 adds demurrage to B3. B5 adds usownership to B2 without the special levy. B6 is the hybrid with usownership, adaptive money and progressive levy. B7 substitutes equal firm-specific citizen grants as a coverage comparator. B8 uses fixed money growth with usownership and the levy. B9 imposes zero conventional tax. Neither B7 nor the hundred-year paths forces pooled ownership.
+
+Slow automation has logistic midpoint 40, speed 0.08, saturation 0.65 and productivity gain 0.35. Medium uses 20, 0.14, 0.90 and 0.90; fast uses 10, 0.30, 0.98 and 1.60. These define paths rather than probabilities. The three paths across ten policies generate 30 main simulations. Outputs are reported at years 10, 25, 50 and 100 when the numerical path remains admissible. Runs crossing a very high price-level or inflation threshold are stopped and future observations remain missing, not extrapolated or filled with zeros.
+
+Thirty-six additional experiments vary the floor, indexation, levy, monetary demand, fiscal capacity, resource capacity, investment response, exclusion, score capture and share transferability. A Latin-hypercube design varies ten parameters over stated intervals for 128 common configurations and runs B2, B5 and B6 on each. The 384 outcomes use the same household draws within a configuration; common random numbers improve comparability. These draws are exploration of a chosen parameter box, not a posterior distribution or probability of real-world success.
+
+Success is multidimensional. We report inflation, output, fiscal needs, monetary balances, median income, wealth concentration and coverage shortfalls. A narrow \emph{transfer-sunset} flag requires MVI below 1\% of GDP for the final five years of the fifty-year window; it is not the same as universal adequacy. A price-band flag requires absolute annual inflation no higher than 5\% throughout the path. Log consumption is a diagnostic and is not used to claim welfare optimality in the absence of leisure, risk and public-service utility.
+

@@ -1,0 +1,7 @@
+{
+  "main_comparison_runs": 27,
+  "robustness_comparison_runs": 72,
+  "matched_checks": 48,
+  "max_matched_error": 0.0,
+  "max_accounting_error": 6.190398948395463e-16
+}

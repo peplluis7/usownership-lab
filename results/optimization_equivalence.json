@@ -1,0 +1,18 @@
+{
+  "trajectories.csv": {
+    "rows": 2697,
+    "nontrivial_relative_differences": {}
+  },
+  "horizons.csv": {
+    "rows": 120,
+    "nontrivial_relative_differences": {}
+  },
+  "sensitivity.csv": {
+    "rows": 384,
+    "nontrivial_relative_differences": {}
+  },
+  "robustness.csv": {
+    "rows": 36,
+    "nontrivial_relative_differences": {}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "eu_gdp_eur_2025": 18826635000000,
+  "eu_government_expenditure_gdp_2025": 0.495,
+  "eu_government_revenue_gdp_2025": 0.464,
+  "eu_government_debt_gdp_2025": 0.817,
+  "ea20_gdp_eur_2025": 15838206000000,
+  "population_scaling_2026": 452000000,
+  "note": "GDP/fiscal anchor: Eurostat EDP first notification, 22 April 2026, annual 2025. Population: rounded EU resident count on 1 January 2026 reported 10 July 2026. Different time conventions are deliberate for illustrative scaling, not a published GDP-per-capita series. Model agents are resident-equivalent units, not observed adults. Behavioural parameters are assumptions, not empirical estimates.",
+  "gdp_source": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-22042026-ap",
+  "population_source": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260710-3",
+  "access_date": "2026-09-08"
+}

@@ -1,0 +1,45 @@
+\section{Model, experiments and identification}
+\subsection{A deliberately bounded transition laboratory}
+The simulation contains 400 equally weighted synthetic resident-equivalent households and three representative firm types with output weights $(0.35,0.35,0.30)$. Initial GDP and prices equal one; capital/output is three and money/output is 0.6. Wage and initial equity allocations are heterogeneous correlated draws. There is no estimated household survey, endogenous entry, banking sector, debt market or foreign sector. All payment balances are direct sovereign liabilities; productive capital is financed through retained earnings. The model is stock-flow consistent within this boundary, not a full account of the transition from present banking arrangements.
+
+A normalised logistic automation path $a_{j,t}$ starts at zero and differs by activity. Labour's gross-output share is $\lambda_{j,t}=0.10+0.48(1-a_{j,t})$. Gross investment shares are
+\begin{equation}
+\nu_{j,t}=\operatorname{clip}\{0.22+0.025a_{j,t}-\chi\delta_{j,t},0.04,0.40\},\quad\chi=0.60,
+\end{equation}
+subject to a positive dividend residual $1-\lambda_{j,t}-\nu_{j,t}$. The cost parameter $\chi$ is assumed and stressed, not estimated. The matched-levy comparator deliberately uses the same investment wedge. This isolates the legal form of the payout; it does not predict actual tax-versus-dilution investment responses.
+
+Capital evolves as $K_{j,t+1}=0.94K_{j,t}+\omega_j\nu_{j,t}Y_t$. Raw potential output and the resource ceiling are
+\begin{equation}
+Y_t^{\rm raw}=\sum_j\omega_j(1.01)^t\exp(\gamma a_{j,t})\left(\frac{K_{j,t}}{K_{j,0}}\right)^{0.4},\quad R_t=\frac{1.30(1.035)^t}{1+0.15\bar a_t}.
+\end{equation}
+Potential output is the smaller of these quantities. The ceiling is an assumed resource constraint, not an observed energy price or engineering frontier. A temporary supply shock and alternative resource-growth rates test its influence. Normalised heterogeneous task exposure allocates the wage bill. The reported labour-demand proxy is not a national unemployment estimate.
+
+\subsection{Cash, spending, fiscal closure and prices}
+Let $x_{i,t-1}$ denote opening nominal cash, $\ell_{i,t}$ the household holding levy, $h_{i,t}$ its transfer and $r_{i,t}$ its share of current factor cash income, with $\sum_i r_{i,t}=1-\nu_t$. In the baseline, net factor share is $\widetilde r_{i,t}=(1-\tau_t)r_{i,t}$. The capital-focused tax benchmark instead uses
+\begin{equation}
+\widetilde r_{i,t}=(1-\tau^w_t)r^w_{i,t}+(1-\tau^k_t)r^k_{i,t},\quad
+\tau^w_t=\min(0.6\tau_t,0.95),\quad\tau^k_t=\min(1.4\tau_t,0.95).
+\end{equation}
+The multipliers define an illustrative rebalancing, not an optimal schedule. Both rates and the transfer rule are solved within the same nominal closure, and capital taxes are imposed on distributed cash income rather than assumed to apply to the entire stock.
+
+Households spend $C_{i,t}=\alpha_{i,t}[x_{i,t-1}-\ell_{i,t}+\widetilde r_{i,t}N_t+h_{i,t}]$, retaining the rest as cash. Here $\alpha_{i,t}=1/(1+\kappa_{i,t})$. Desired liquidity $\kappa$ responds negatively to expected inflation relative to target, the effective levy and the return advantage of alternative assets. The central elasticity is four; expectations adjust at 0.3. This is a behavioural closure rather than a utility-maximising portfolio model. Portfolio substitution changes spending and the demand for balances; there is no simulated offshore asset stock.
+
+For given taxes and transfers, nominal expenditure is solved exactly:
+\begin{equation}
+N_t=\frac{\sum_i\alpha_{i,t}(x_{i,t-1}-\ell_{i,t}+h_{i,t})+G_t}
+{1-\nu_t-\sum_i\alpha_{i,t}\widetilde r_{i,t}}.\label{eq:closuremain}
+\end{equation}
+This is the joint goods/cash accounting solution, not an assumed Keynesian multiplier. With potential output $Y_t^*$, prices satisfy $P_t=\max\{N_t/Y_t^*,0.98P_{t-1}\}$ and output is $N_t/P_t$. Excess demand raises prices; weak demand may lower utilisation when downward price adjustment is constrained. There are no endogenous relative prices or an estimated Phillips curve.
+
+Public purchases equal 22\% of forecast nominal capacity. The reference income floor is 25\% of forecast potential GDP per resident-equivalent unit. Universal payments are calibrated to predicted after-tax income at the tenth percentile; targeted payments fill each predicted gap. They are different transfer designs, not identical coverage rules. Forecast errors, taxes and the holding levy can leave realised shortfalls, which are reported separately.
+
+The adaptive monetary rule targets money growth based on forecast capacity growth, changes in desired liquidity and the previous inflation gap. A bounded scalar root chooses a conventional tax parameter in $[0,0.85]$ to attain that money stock. The maximum is a computational policy bound, not a claim of political feasibility. Fixed-tax variants instead allow issuance to close the budget. Thus near-target inflation in the adaptive cases can require substantial residual taxation; it is not imposed proof of successful seigniorage-only financing. The supplement gives the full timing, equations and parameters.
+
+\subsection{Experiments and diagnostic outcomes}
+The inherited design contains ten policies across slow, medium and fast automation, 36 robustness experiments and 128 common Latin-hypercube configurations across three paired policies: 450 runs. The additional comparison executes nine policies across the three automation paths and six policies across twelve robustness configurations: 99 runs. There are \emph{549 executed macro paths in total}, including repeated control configurations and explicitly failed paths, not 549 independent empirical observations. We report main counterfactuals at 50 years and retain 10-, 25- and 100-year original scenarios in the supplement and data. Century-scale extensions hold agents and firm types fixed and are not forecasts.
+
+B0 provides targeted protection; B2 a universal transfer; B5 adds usownership; B6 adds the holding-levy monetary architecture; B7 allocates firm equity equally rather than by contribution. B10 adds capital-focused taxation without user equity. B11 matches B5's dividends through a levy and rebate; B12 matches B6. B13 combines usownership and the monetary architecture with targeted income protection. All have the same production opportunities, initial household draws and stated public-service commitment within a scenario. No baseline is described as a fully calibrated current tax system.
+
+The slow, medium and fast logistic midpoints are 40, 20 and 10 years; speeds are 0.08, 0.14 and 0.30; saturation values are 0.65, 0.90 and 0.98. Productivity-gain coefficients are 0.35, 0.90 and 1.60. The design spans hypotheses rather than assigns their probabilities. Robustness changes money demand, public purchases, income-floor indexation, score integrity, contributor coverage, dilution speed, investment response and resource limits.
+
+Outputs distinguish MVI, participant dividends or rebates, conventional taxes, pass-through levies, monetary financing, money balances, coverage, consumption and legal book wealth. Book wealth is money plus corporate book equity; it omits housing, pensions and capitalised fiscal claims. Mean log consumption omits leisure, risk and public-service utility and is not a complete welfare criterion. A narrow sunset diagnostic requires MVI below 1\% of GDP for the last five years of a 50-year run, independently of adequacy. Price-band success requires absolute inflation at most 5\% throughout. Every period checks monetary and goods identities and equity conservation. The extended suite also verifies the exact cash-flow replication and rejects incompatible secondary sales in that experiment.

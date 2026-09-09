@@ -1,0 +1,90 @@
+\section{A closed heterogeneous-agent transition laboratory}
+\subsection{Agents, production and resources}
+There are $n_h=400$ equally weighted resident-equivalent agents and three representative firm types with output weights $\omega=(0.35,0.35,0.30)$. These represent diversified activities, not observed individual companies. Initial real GDP and the price level equal one, initial capital is three units and initial money is 0.6 units. Wage and equity distributions are correlated but heterogeneous synthetic draws. No household survey was used to estimate them.
+
+The common automation trajectory is a normalised logistic function beginning at zero. Firm automation scales it by $(1,0.9,0.8)$. Slow, medium and fast cases differ in midpoint, speed, saturation and productivity gain. Automation changes the wage share according to $\lambda_{j,t}=0.10+0.48(1-a_{j,t})$. Thus labour income becomes less important by assumption; complete elimination of work is not imposed. Heterogeneous task exposure alters within-firm wage allocations and is then normalised to the wage bill. The resulting labour-demand index is a proxy, not measured unemployment.
+
+Planned investment shares are
+\begin{equation}
+\nu_{j,t}=\operatorname{clip}(0.22+0.025a_{j,t}-\chi\delta_{j,t},\,0.04,\,0.40),\quad\chi=0.60,
+\end{equation}
+subject to a positive distributable residual. Shares of gross output allocated to wages, retained-earnings investment and cash dividends sum to one. Investment is gross; replacement investment and depreciation are not counted as household cash income. Capital evolves as
+\begin{equation}
+K_{j,t+1}=(1-0.06)K_{j,t}+\omega_j\nu_{j,t}Y_t.
+\end{equation}
+The raw capacity index is
+\begin{equation}
+Y_t^{\rm raw}=\sum_j\omega_j(1+g_A)^t\exp(\gamma a_{j,t})
+\left(\frac{K_{j,t}}{K_{j,0}}\right)^{\beta},\quad g_A=0.01,\ \beta=0.40.
+\end{equation}
+A separate resource envelope bounds potential output:
+\begin{equation}
+Y_t^*=\min\left\{Y_t^{\rm raw},\frac{R_0(1+g_R)^t}{1+\eta\bar a_t}\right\},\quad
+R_0=1.30,\ g_R=0.035,\ \eta=0.15.
+\end{equation}
+This deliberately exposes a possible resource bottleneck rather than hiding it in an optimistic TFP process. A temporary supply shock multiplies capacity by a three-year recovery profile. The reported raw-capacity/resource-capacity ratio is a pressure proxy, not a market-clearing resource price.
+
+\subsection{Household flows and endogenous transaction demand}
+Let $r_{i,t}$ be a household's share of current wages and distributable profits. It combines the normalised wage allocation and both equity classes; $\sum_i r_{i,t}=1-\nu_t$, where $\nu_t=\sum_j\omega_j\nu_{j,t}$. Given flat conventional tax rate $\tau_t$, household disposable income is
+\begin{equation}
+h^{\rm disp}_{i,t}=(1-\tau_t)r_{i,t}N_t+h_{i,t}.
+\end{equation}
+The protected-balance levy is applied to opening money. In the progressive version, the marginal rate is zero below 0.12 times forecast mean annual income, $d_t/2$ above that exemption, and $d_t$ above forecast mean annual income. The upper-bracket charge is therefore incremental rather than a discontinuity on the entire balance. The top rate begins at 4\% and can rise with previous inflation, capped at 15\%. A flat-rate comparator and the original 33\% proposal are separate tests.
+
+Consumption is a share of currently available cash plus income:
+\begin{equation}
+C_{i,t}=\alpha_{i,t}\{m_{i,t-1}-b_{i,t}+h^{\rm disp}_{i,t}\},\qquad
+\alpha_{i,t}=\frac{1}{1+\kappa_{i,t}}.\label{eq:cons}
+\end{equation}
+The liquidity ratio $\kappa_{i,t}$ decreases exponentially with expected inflation relative to target, the effective holding levy and the return advantage of alternatives. Its elasticity is four in the central scenario. Expectations adjust at rate 0.3. This is an explicit behavioural money-demand mechanism; it is not a fully optimising household portfolio model. In particular, a desire to escape money changes spending and prices, while the model has no offshore asset stock.
+
+Money holdings satisfy
+\begin{equation}
+m_{i,t}=m_{i,t-1}-b_{i,t}+h^{\rm disp}_{i,t}-C_{i,t}.
+\end{equation}
+Here lower-case $m_i$ denotes an individual's \emph{nominal} account balance; only the aggregate $m=M/P$ in \eqref{M-eq:seign} denotes real balances. The code uses unambiguous `cash' and `real\_cash' names. The distinction prevents a nominal/real bookkeeping error.
+
+\subsection{Nominal expenditure, output and prices}
+Public purchases are 22\% of forecast nominal capacity. Transfers use \eqref{M-eq:floor}, evaluated on predicted after-tax factor income. The main floor is 25\% of forecast real GDP per resident-equivalent unit, indexed to potential output; it is not the transfer amount itself. A targeted comparator tops up individual predicted incomes, whereas the universal policy pays everyone the same amount required for the chosen tenth percentile.
+
+Conditional on a tax rate, all nominal expenditure is solved jointly:
+\begin{equation}
+N_t=\frac{\sum_i\alpha_{i,t}(m_{i,t-1}-b_{i,t}+h_{i,t})+G_t}
+{1-\nu_t-\sum_i\alpha_{i,t}(1-\tau_t)r_{i,t}}.\label{eq:nominal}
+\end{equation}
+The denominator must be strictly positive. This is an algebraic solution of the within-period goods and cash-flow equations, not an independently estimated expenditure multiplier. The price/output closure is
+\begin{equation}
+P_t=\max\left\{\frac{N_t}{Y_t^*},\,(1-\zeta)P_{t-1}\right\},\quad
+Y_t=N_t/P_t,\quad\zeta=0.02.\label{eq:prices}
+\end{equation}
+Nominal demand above capacity raises prices; demand below the downward-adjustment limit lowers utilisation. Prices can fall by at most 2\% annually under this closure. Sectoral relative prices, wage bargaining, expectations-driven Phillips dynamics and optimal monetary policy are not estimated. Those omissions restrict external inference from the inflation paths.
+
+\subsection{Policy rules and explicit fiscal closure}
+The adaptive monetary rule targets a change in money informed by forecast capacity growth, average desired liquidity and the inflation gap:
+\begin{equation}
+\mu_t^*=\operatorname{clip}\left[(1+\pi^*)\frac{\widehat Y_t}{Y_{t-1}}
+\frac{\bar\kappa_t}{\bar\kappa_{t-1}}-1+\psi(\pi^*-\pi_{t-1}),\,-0.15,\,0.20\right],
+\end{equation}
+with $\pi^*=2\%$ and $\psi=0.25$. It does not directly set current inflation. A scalar root solve selects $\tau_t\in[0,0.85]$ to attain $M_t=M_{t-1}(1+\mu_t^*)$ subject to the preceding flow equations. If no root is available, the closest boundary is used and a fiscal-capacity flag is recorded. In the fixed-money-growth case, the desired growth is 4\%. In fiscal-dominant cases, the conventional tax rate is fixed at 30\% of cash factor income, or at zero in the no-tax stress, and issuance adjusts residually to finance the budget.
+
+This distinction is essential to interpretation. A path near the inflation target in the adaptive model can be enabled by high residual taxation. It is not a demonstration that programmable money or demurrage autonomously finances expenditure. Likewise, the maximum tax bound is a design parameter, not a claim that a society could immediately implement an 85\% tax rate. The fiscal-capacity stress reduces that bound to 35\%.
+
+\subsection{Balance sheets and validation}
+Household assets are sovereign money plus firm book equity. Firms hold productive capital and issue matching equity claims. The consolidated government is the issuer of money with negative financial net worth equal to outstanding money in this simplified model. Aggregate private and public financial claims net to zero; real national wealth is capital. Public infrastructure, foreign wealth and government debt are excluded, not silently assigned zero empirical values.
+
+\begin{table}[htbp]\centering\small
+\caption{Model balance-sheet accounting at book value}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Item & Households & Firms & Government & Total\\
+\midrule
+Sovereign money & $M$ & 0 & $-M$ & 0\\
+Corporate equity & $PK$ & $-PK$ & 0 & 0\\
+Productive capital & 0 & $PK$ & 0 & $PK$\\
+Net worth & $M+PK$ & 0 & $-M$ & $PK$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Every period checks $N=C+J+G$, $\Delta M=G+H-T-B$, non-negative cash and equity shares summing to one. The unit suite also tests dilution recursions, vesting, cash-settled secondary sales, exclusion, endogeneity of money demand, the analytical envelope, invalid inputs and deterministic reproduction. These checks establish implementation consistency, not the empirical truth of behavioural rules.
+

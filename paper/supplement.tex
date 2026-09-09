@@ -1,0 +1,45 @@
+\documentclass[11pt,a4paper]{article}
+\input{preamble}
+\usepackage{xr}
+\externaldocument[M-]{main}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\title{Online Supplement\\\large Bridging the AI Ownership Transition: Usownership, Programmable Money and the Limits of Seigniorage}
+\author{}\date{9 September 2026}
+\begin{document}\maketitle
+This supplement provides terminological provenance, the Internet-of-Value implementation boundary, complete laboratory equations, scenario definitions, additional paths and reproduction checks. It distinguishes inherited experiments from the new comparative extension. Values are synthetic model outputs, not empirical forecasts. The main paper provides the comparative propositions and institutional interpretation.
+\input{supplement/terminology_iov}
+\section{Incidence arithmetic and the strongest benchmark}
+\begin{table}[htbp]\centering\small
+\caption{Constant equity issuance: ownership, terminal compensation and legacy present value}
+\input{tables/ownership_incidence.tex}
+\par\smallskip\footnotesize The value offset is the additional total terminal firm value required to maintain legacy-holder terminal wealth. PV loss uses an infinite dividend stream growing at 3\%, discounted at 8\%, with the stated constant dilution forever; it is not a finite-horizon loss and therefore repeats across horizons. No effort response is included.
+\end{table}
+The matched dividend-levy experiment maintains original legal ownership. An administrative shadow register follows exactly the equity-grant rule to determine rebates and the dividend fraction levied from original holders. It therefore has the same complexity of contribution measurement rather than receiving an artificial simplicity advantage. Ordinary taxes apply after the pass-through redistribution, as in the matched equity case. The gross levy and rebate cancel in the consolidated budget, but both remain visible in the exported columns. The experiment does not contain share sales, since legal ownership and the associated tax base would then require a separate mapping.
+
+\section{A conditional durability illustration, not an estimated advantage}
+If an otherwise identical future payment survives each year with probability $p$, its expected year-$t$ amount is $p^tD_t$. With full survival for both the equity and levy contracts, the paths coincide. A hypothetical 1\% yearly interruption hazard reduces expected receipts at year 25 by $1-0.99^{25}=22.2\%$ relative to certain survival. This applies symmetrically: assigning the hazard to corporate rights instead reverses the comparison. No evidence is used to assign a lower hazard to user equity.
+\begin{figure}[htbp]\centering
+\includegraphics[width=.9\linewidth]{figures/conditional_durability.pdf}
+\caption{A sensitivity illustration of the durability margin. The 1\% hazard is assumed, not measured. Equivalent hazards give equivalent expected payouts; the figure is not evidence that fiscal contracts are less secure.}
+\end{figure}
+
+\input{supplement/full_model}
+\input{supplement/data_full}
+\input{supplement/legacy_results}
+\input{supplement/robustness_old}
+\section{Comparative extension: implementation and robustness}
+The additional policies are defined in \texttt{scripts/run\_comparisons.py}. B10 applies labour and capital tax multipliers 0.6 and 1.4, with each effective rate capped at 0.95. Transfers are recomputed from the net-income vector during the fiscal root solve, rather than incorrectly applying a scalar factor to a pre-tax quantile. B11 and B12 use the shadow-register pass-through described above; B13 uses targeted predicted-gap protection with the hybrid. The code preserves the inherited default policy rules to numerical tolerance.
+
+The 27 new main comparison runs use nine policies over three automation paths for 50 years. The 72 additional robustness runs use B0, B2, B5, B6, B10 and B13 under twelve common settings: central; investment penalty 3; no investment penalty; 20\% contributor exclusion; 4\% annual issue cap; 0.5\% cap; 7\% public purchases; 30\% public purchases; fixed-real floor; liquidity elasticity 10; 20\% score capture; and resource growth 1.2\%. Unmentioned parameters retain the baseline. These are selected sensitivities, not a posterior or global optimal-policy search.
+
+The contribution register is fictional in the simulation. The user fractions are conserved exactly but the scoring weights are not estimated economic values. The same initial household draws, production opportunities, resource limits and services are used within each comparison. The matched-levy tests use the same investment penalty as equity by construction; separately estimated responses could break the equivalence of realised outcomes.
+
+\section{Reproduction and verification}
+Run \texttt{python scripts/reproduce\_all.py --compile} from the repository root after installing its pinned dependencies. The pipeline regenerates the 450 inherited macro paths, all 99 comparative paths, analytical tables and figures. It then compiles the main manuscript and this supplement when LaTeX is installed. The exact command, environment and configuration are included in the repository. No access to the private exploratory notebooks is needed for the published numerical results.
+
+The test suite checks monetary and goods accounting, legal and shadow equity conservation, nonnegative holdings, identical matched cash outcomes, invalid input rejection, deterministic results, generated table consistency and legacy-regression values. Tests cannot validate the external realism of an assumed behavioural equation. The largest baseline-accounting discrepancies are at floating-point precision. Full configurations and CSV outputs are supplied, including failed paths rather than replacing them with extrapolations.
+
+\bibliographystyle{plainnat}\bibliography{bibliography}
+\end{document}

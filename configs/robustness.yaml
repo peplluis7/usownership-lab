@@ -1,0 +1,137 @@
+baseline:
+- {}
+- {}
+concave_scores:
+- {}
+- scoring: concave
+consumption_scores:
+- {}
+- scoring: consumption
+equal_grants_comparator:
+- {}
+- scoring: equal
+fast_ai:
+- ai_gain: 1.6
+  automation_max: 0.98
+  midpoint: 10.0
+  speed: 0.3
+- {}
+fast_equity_diffusion:
+- dilution_cap: 0.05
+- {}
+fiscal_capacity_limit:
+- max_tax: 0.35
+- {}
+fixed_real_floor:
+- floor_indexation: 0.0
+- {}
+flat_demurrage:
+- {}
+- progressive: false
+high_alternative_return:
+- alternative_return: 0.08
+- {}
+high_money_demand:
+- money_gdp: 1.0
+- {}
+high_opportunity_elasticity:
+- liquidity_elasticity: 10.0
+- {}
+high_relative_floor:
+- income_floor: 0.4
+- {}
+higher_levy:
+- demurrage: 0.1
+- {}
+historical_33pct_levy:
+- demurrage: 0.33
+  max_demurrage: 0.33
+- {}
+investment_penalty_high:
+- dilution_investment_penalty: 3.0
+  resource_cap: 3
+  resource_growth: 0.08
+- {}
+investment_penalty_zero:
+- dilution_investment_penalty: 0.0
+  resource_cap: 3
+  resource_growth: 0.08
+- {}
+liquidation_no_vesting:
+- sell_rate: 0.25
+  transfer_retained_core: 0.0
+  vesting_years: 0
+- {}
+liquidation_with_vesting:
+- sell_rate: 0.25
+  transfer_retained_core: 0.2
+  vesting_years: 10
+- {}
+low_coverage:
+- excluded_fraction: 0.2
+- {}
+low_money_demand:
+- money_gdp: 0.2
+- {}
+low_relative_floor:
+- income_floor: 0.15
+- {}
+money_demand_shock:
+- money_preference_shock: 0.4
+  money_preference_shock_year: 15
+- {}
+no_demurrage:
+- {}
+- demurrage: false
+no_tax:
+- {}
+- monetary: fiscal
+  tax_override: 0.0
+no_tax_7pct_high_balances:
+- government_share: 0.07
+  income_floor: 0.15
+  money_gdp: 1.0
+- monetary: fiscal
+  tax_override: 0.0
+no_tax_7pct_low_floor:
+- government_share: 0.07
+  income_floor: 0.15
+- monetary: fiscal
+  tax_override: 0.0
+no_tax_7pct_services:
+- government_share: 0.07
+- monetary: fiscal
+  tax_override: 0.0
+no_tax_7pct_targeted:
+- government_share: 0.07
+  income_floor: 0.15
+- monetary: fiscal
+  tax_override: 0.0
+  transfers: targeted
+optimistic_forecast:
+- forecast_bias: 0.1
+- {}
+score_attack:
+- bot_share: 0.2
+- {}
+slow_ai:
+- ai_gain: 0.35
+  automation_max: 0.65
+  midpoint: 40.0
+  speed: 0.08
+- {}
+slow_equity_diffusion:
+- dilution_cap: 0.005
+- {}
+supply_shock:
+- shock_size: 0.2
+  shock_year: 15
+- {}
+unconstrained_resources:
+- resource_cap: 3
+  resource_growth: 0.08
+- {}
+very_scarce_resources:
+- resource_cap: 1.1
+  resource_growth: 0.01
+- {}

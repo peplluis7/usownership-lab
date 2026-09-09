@@ -1,0 +1,80 @@
+\section{Usownership: a contribution-weighted user-to-owner transition}
+\subsection{The term and its institutional boundary}
+We introduce \emph{usownership} as a compact noun for a specific transition in property rights, but the associated \emph{Usowner} idea has a documented precursor in the authors' earlier technical work. ERC-4950 (2022) explicitly lists ``Usowners'' as users who consume an NFT and thereby become partial owners \citep{erc4950}. The present paper takes that narrow digital-object use case and generalises it into an institution for productive firms. The semantic roots remain \emph{user} and \emph{owner}; the suffix \emph{-ship} denotes the resulting durable relation. In other words,
+\[
+\text{user}\;\longrightarrow\;\text{Usowner}\;\longrightarrow\;\text{usownership}.
+\]
+The analytical definition is: \emph{usownership is the cumulative acquisition of firm-specific ownership claims by users and other ecosystem participants according to a disclosed contribution rule}. It does not mean that every customer is automatically an equal owner, that the firm starts as a cooperative, or that a public pool owns the firm.
+
+The lineage constrains the novelty claim. ERC-4950 demonstrates that partial user ownership and the ``Usowner'' label were already explicit in 2022; it also provides an entangled-token mechanism for linked control of a smart-contract wallet. It did not specify the present corporate dilution process, heterogeneous contribution score, automation linkage, income-coverage condition, fiscal replication benchmark or monetary transition model. Cooperative economics also has a much older user-owner principle \citep{dunn1988,zeuliradel2005}; platform cooperativism includes user-owned and ``produser-owned'' platforms \citep{scholz2016}; and \citet{schneider2018} develops an ``Internet of ownership''. A bounded search additionally found \texttt{USOWNERSHIP}/\texttt{usOwnership} as unrelated shorthand for ``U.S. ownership'' \citep{straitsx2026}. The defensible contribution is therefore the formalisation of \emph{usownership} as a generalised, contribution-weighted structural-transition institution, not the first observation that users can own digital assets. The online supplement records the search boundary.
+
+Five properties distinguish the mechanism studied here. It is (i) \emph{gradual}, because ownership accumulates through repeated small grants; (ii) \emph{firm-specific} during the early transition rather than pooled socially; (iii) \emph{contribution-weighted}, spanning consumers, engaged users, data or knowledge contributors and prosumers; (iv) \emph{compatible with initially predominant private investor ownership}; and (v) \emph{cumulative and durable}, so successful participation can build a stock of capital rather than only a current transfer flow. These properties define the object tested below, not a claim that it dominates all tax-financed asset-building policies.
+
+\begin{table}[htbp]\centering\small
+\caption{Terminological boundary of usownership}
+\input{tables/terminology_boundary.tex}
+\end{table}
+
+\subsection{Allocation, dilution and incidence}
+Let $q_{ij,t}$ be household $i$'s conventional fraction of firm $j$, $u_{ij,t}$ its usownership fraction and $\delta_{j,t}$ new participant shares relative to the pre-issue share count. With normalised contribution weights $s_{ij,t}\geq0$ summing to one for each firm,
+\begin{align}
+q_{ij,t}&=\frac{q_{ij,t-1}}{1+\delta_{j,t}},\\
+u_{ij,t}&=\frac{u_{ij,t-1}+\delta_{j,t}s_{ij,t}}{1+\delta_{j,t}}.\label{eq:equity}
+\end{align}
+The second left-hand symbol is $u$, a user share, not the investment share $\nu$ used later. All pre-existing shares, including previous user grants, are diluted consistently. No equity issue creates additional machines or monetary balances in this accounting.
+
+\begin{proposition}[Gradual ownership accumulation]\label{prop:accumulation}
+Without secondary sales, and starting with no usownership, aggregate user ownership of firm $j$ is
+\begin{equation}
+U_{j,t}=1-\prod_{\tau=1}^{t}(1+\delta_{j,\tau})^{-1}.\label{eq:U}
+\end{equation}
+At constant $\delta$, this becomes $1-(1+\delta)^{-t}$, independent of how the grant pool is divided among its users.
+\end{proposition}
+\begin{proof}
+Summing \eqref{eq:equity} over households gives $1-U_{j,t}=(1-U_{j,t-1})/(1+\delta_{j,t})$. Iteration proves the expression. Distribution among people still depends on their scores.
+\end{proof}
+
+A firm with one million pre-existing shares issuing 20,000 participant shares transfers 1.9608\% of its post-issue equity, not 2\% of the post-issue stock. If company value were unchanged at the issue, the old holders would lose that same fraction of their claim. Gradual dilution is therefore an in-kind transfer, even where legally authorised and predictable. Whether participation adds value that compensates investors is an empirical question, not an accounting consequence.
+
+Our illustrative automation-linked schedule is
+\begin{equation}
+\delta_{j,t}=\bar\delta\left[\frac{a_{j,t}-a_0}{1-a_0}\right]_+,\quad
+\bar\delta=0.02,\quad a_0=0.25.\label{eq:delta}
+\end{equation}
+The threshold delays grants until automation reaches a specified level; the cap limits the annual transfer. Both are normative scenario assumptions. Automation is difficult to measure and firms may strategically relabel technology, restructure subsidiaries or relocate rights. A deployable rule would require legal definitions, aggregation and anti-avoidance provisions that are not supplied by a blockchain.
+
+Investment incentives cannot be assumed unaffected. If total future dividends grow at $h$ and an investor discounts at $r$, constant dilution changes a simple present-value series to $\sum_t\Pi_0[(1+h)/((1+r)(1+\delta))]^t$. The approximation raises the effective discount burden by about $\delta$. Tax relief, stronger user demand or productive contributions might offset some cost, but such offsets require evidence. The simulation consequently imposes and stresses an explicit reduced-form investment response rather than claiming incentive compatibility.
+
+\subsection{From consumers to prosumers}
+A general contribution vector can include use, meaningful engagement, feedback, data quality, knowledge, content production, compute supply, network services and governance. These are not interchangeable quantities. In the laboratory they are compressed into three synthetic dimensions: use $x$, engagement $e$ and productive creation $z$. Within each firm we apply
+\begin{equation}
+\widetilde s_{ij}=0.35\sqrt{\min(x_{ij},25)}+0.25e_{ij}+0.40z_{ij},\qquad
+s_{ij}=\frac{\widetilde s_{ij}}{\sum_k\widetilde s_{kj}}.\label{eq:score}
+\end{equation}
+Use is normalised by the firm's median use; the engagement and creation inputs are bounded synthetic characteristics. The coefficients are not estimated values. They implement the proposed participation spectrum while making the distributional judgement inspectable. Consumption-only, square-root-consumption and equal-grant alternatives test sensitivity. Raw attention time is not independently rewarded.
+
+Consider an AI platform with 10,000 users in each of six contribution classes, one million outstanding shares and a new 20,000-share pool. The following values are generated by the example code. A hypothetical EUR10 million total distribution illustrates ownership arithmetic, not a forecast of firm value or investor returns.
+\begin{table}[htbp]\centering\small
+\caption{Illustrative AI-platform grant: 60,000 users, six contribution classes}
+\input{tables/micro.tex}
+\end{table}
+The same code supplies autonomous-mobility and household-robotics examples, distinguishing ordinary users, feedback providers, infrastructure hosts, accessibility evaluators and productive contributors. A valuable user can receive more than a large spender, but the weights still embody a distributive choice. A score cannot by itself distinguish freely given feedback from compensable employment, intellectual property or data acquired without valid consent.
+
+\subsection{Coverage, transferability and the limits of a sunset}
+Let pre-transfer disposable income be $h^0_{i,t}$ and the desired income floor $z_t$. A universal top-up protecting a selected lower quantile $q$ is
+\begin{equation}
+h_t=\left[z_t-Q_q(h^0_{i,t})\right]_+.\label{eq:floor}
+\end{equation}
+This is universal payment with a quantile-based calibration, not an individual means-tested guarantee. Some people below the reference quantile can still fall short. We report that gap rather than equating a zero top-up with universal adequacy.
+
+\begin{proposition}[A coverage condition for the income bridge]
+Under \eqref{eq:floor}, the top-up is zero if and only if the selected pre-transfer income quantile reaches the floor. If a share of people larger than $q$ permanently has zero capital claims and labour income vanishes for them, a positive relative income floor cannot be replaced by aggregate usownership growth alone.
+\end{proposition}
+\begin{proof}
+The first statement follows directly from the positive-part operator. Under the second condition the relevant income quantile approaches zero regardless of dividends received outside that group. A strictly positive floor therefore leaves a positive top-up.
+\end{proof}
+
+The distinction between a fixed real floor and one indexed to prosperity is equally important. If incomes and the floor all scale proportionately with real GDP, growth cancels from the comparison: distributional shares determine adequacy. Faster production need not shorten the bridge. In contrast, a fixed real floor becomes smaller relative to output and can disappear without equitable participation in increasing prosperity.
+
+The baseline retains user shares; this is a strong protection assumption, not a free institutional feature. An extension allows cash-settled sales from non-wealthy holders to wealthy buyers at book value, after specified vesting. Every purchase transfers money to a seller rather than destroying it. Early sales can reconcentrate claims. Vesting, a non-transferable core or a liquid income floor can reduce that effect, but they also restrict household choice, collateral use and risk diversification. Demography, inheritance and entry of new users are not simulated; century-scale paths therefore require especially cautious interpretation.
+
