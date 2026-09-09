@@ -1,7 +1,8 @@
-# usownership-lab
 # Usownership and the AI Ownership Transition
 
-Reproducible simulation framework for the AI ownership transition: usownership, programmable money, seigniorage, MVI, automation scenarios, and long-run capital redistribution from 2027 to 2077.
+Reproducible simulation code for the paper:
+
+**Bridging the AI Ownership Transition: Usownership, Programmable Money and the Limits of Seigniorage**
 
 This repository implements the synthetic stock-flow-consistent laboratory used in the paper. It is a mechanism study, not an estimated forecast of the European Union or any other economy.
 
@@ -170,8 +171,8 @@ The bundled full-run CSVs derive from the verified 549-path numerical experiment
 
 ## Citation
 
-See `CITATION.cff`. When the journal article receives a DOI, I'll update the preferred citation and archive the GitHub release with Zenodo or an equivalent repository to obtain a permanent software DOI.
+See `CITATION.cff`. When the journal article receives a DOI, update the preferred citation and archive the GitHub release with Zenodo or an equivalent repository to obtain a permanent software DOI.
 
 ## Licence
 
-MIT
+No open-source licence is granted automatically by this research package. `LICENSE` records that the final licence remains an author decision. For academic reproducibility, MIT or BSD-3-Clause for code and CC BY 4.0 for original documentation/data are common options, subject to the authors' IP and publication strategy.

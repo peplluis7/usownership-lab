@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this simulation code, please cite the accompanying paper and this software release. Update the journal DOI after publication."
+title: "Usownership and the AI Ownership Transition: Reproducible Simulation Code"
+type: software
+authors:
+  - family-names: "de la Rosa"
+    given-names: "Josep Lluis"
+version: 0.3.0
+date-released: 2026-09-09
+keywords:
+  - usownership
+  - artificial intelligence
+  - automation
+  - seigniorage
+  - programmable money
+  - structural change
+  - stock-flow consistency
+preferred-citation:
+  type: article
+  title: "Bridging the AI Ownership Transition: Usownership, Programmable Money and the Limits of Seigniorage"
+  authors:
+    - family-names: "de la Rosa"
+      given-names: "Josep Lluis"
+  notes: "Working manuscript prepared for Structural Change and Economic Dynamics; update authors, year, volume, pages and DOI after publication."
